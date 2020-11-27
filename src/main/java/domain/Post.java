@@ -18,7 +18,6 @@ public class Post {
     private ViewsInfo viewsInfo;//информация о просмотрах поста
     private String typePost;//тип записи:пост, копия, ответ
     private PostSource postSource;//инфорация о способе размещения записи
-    private int attachments[];//медиавложения записи
     private Geo geo;//информация о местоположении
     private int idSigner;//идентификатор автора
     private int copyHistory;//массив, содержащий историю репостов для записи
